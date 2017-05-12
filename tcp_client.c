@@ -25,7 +25,7 @@ int main () {
   memset(buf, 0, sizeof(buf));
   n = read(sock, buf, sizeof(buf));
 
-  printf("%d, %s\n",n,buf);
+  printf("length = %d, %s\n",n,buf);
 
   /*close socket*/
   close(sock);
